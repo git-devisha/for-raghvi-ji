@@ -1,0 +1,36 @@
+body {
+    background-color: rgb(220, 197, 135);
+    background-image: url("C:\Users\Devisha\OneDrive\Pictures\Saved Pictures\1600w-orhYGC8lcKI.webp"); /* Path to your image */
+    background-size: cover; /* Ensures the image covers the screen */
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Keeps the image fixed during scrolling */
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.container {
+    padding: 20px;
+    color: white; /* Text color to contrast with the background */
+}
+
+header {
+    width: 100%;
+    height:60px;
+    background-color: #CC986E;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center the heading */
+    position: absolute;
+    top: 0;
+}
+.logo {
+    position: absolute;
+    left: 20px; /* Add margin on the left */
+    height: 40px; /* Adjust size */
+}
+
+iframe {
+    margin-top: 70px;
+    width: 100%;
+    height: 100vh; /* Full viewport height */
+    border: none;
+}
